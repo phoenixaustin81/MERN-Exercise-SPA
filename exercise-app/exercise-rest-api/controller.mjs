@@ -34,7 +34,6 @@ app.put('/exercises/:id', (req, res) => {
 });
 
 app.delete('/exercises/:id', (req, res) => {
-  console.log(`ID: ${req.params.id}`);
   exercises.deleteExercise(req.params.id)
     .then(() => res.status(204).send())
     .catch(err => {

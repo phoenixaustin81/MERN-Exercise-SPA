@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#F3F0D7;
+  color: black;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .05rem;
+}
+
+#root {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  padding: 2%;
+}
+
+h1, h2 {
+  color: #6D8C80;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  letter-spacing: .1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/************* Table ****************/
+
+table, th, td {
+  border: solid #F3F0D7 2px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: .5rem 0;
+  width: auto;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+}
+
+tr {
+  background-color: #CEE5D0;
+  color: black;
+}
+
+th {
+  background-color: #6D8C80;
+  color: white;
+  padding: 1rem 0;
+}
+
+caption {
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #6D8C80;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+/******************** Form *********************/
+
+legend, label, input, button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+form {
+  margin: 3rem auto;
+}
+
+fieldset {
+  border: #F3F0D7;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: .4rem;
+}
+
+button {
+  margin-top: .4rem;
+  font-size: 1rem;
+  letter-spacing: .05rem;
+}
+
+input {
+  padding: .3rem;
+}
